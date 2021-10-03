@@ -34,3 +34,9 @@ body {
 img {
     width: 300px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
