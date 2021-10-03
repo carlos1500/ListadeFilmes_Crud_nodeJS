@@ -31,7 +31,7 @@ const getFilmes = async () => {
           <div align="center">
           <button type="button" class="btn btn-primary" onclick="putFilme(${filme.id})">Editar</button>
           <button type="button" class="btn btn-danger" onclick="deleteFilme(${filme.id})">Excluir</button>
-          <button type="button" class="btn btn-outline-warning"" onclick="visualizado(${filme.id})" id="assistido">Visto</button>
+          <button type="button" class="btn btn-outline-warning"" onclick="statusView(${filme.id})" id="assistido">Visto</button>
           </div>
       </div>
     </div>
@@ -133,16 +133,17 @@ const deleteFilme = async (id) => {
 
 
 //Visto nos filmes assistidos, não funcionou, mas eu tentei kkkkk.
-visto.addEventListener('OnClick', (evento) ={
+const statusView = visto.addEventListener('OnClick', (evento) ={
   If(letView = true) {
-    letView = false},})
+    letView = false},},
+  visualizado())
 
 const visualizado = async (id) => {
   if (letView == true) {
     visto.insertAdjacentHTML('beforeEnd', `
     <i class="fa fa-eye" aria-hidden="true"></i>`)
 } else {
-  visto. visto.insertAdjacentHTML('beforeEnd', `
+  visto.insertAdjacentHTML('beforeEnd', `
   <i class="fa fa-eye-slash" aria-hidden="true"></i>
   `)
 }}
