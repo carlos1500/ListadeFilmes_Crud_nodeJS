@@ -1,0 +1,25 @@
+div#lista i {
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: rgb(31, 2, 2);
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+   background-color: rgb(89, 13, 34);
+}
+
+.card-header {
+    background-color: rgb(201, 24, 74);
+    color: white;
+}
+
+.card {
+    background-color: rgb(7, 1, 2);
+}
+
+img {
+    width: 300px;
+}
