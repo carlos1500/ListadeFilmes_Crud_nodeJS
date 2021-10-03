@@ -14,7 +14,7 @@ const getFilmes = async () => {
 
   dados.map((filme) => {
     listagem.insertAdjacentHTML('beforeEnd', `
-    <div class="col-6">
+    <div class="col-4">
       <div class="card p-2 m-3">
         <div class="card-header">
           <h2 align="center">${filme.titulo}</h2>
