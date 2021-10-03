@@ -31,7 +31,7 @@ const getFilmes = async () => {
           <div align="center">
           <button type="button" class="btn btn-primary" onclick="putFilme(${filme.id})">Editar</button>
           <button type="button" class="btn btn-danger" onclick="deleteFilme(${filme.id})">Excluir</button>
-          <button type="button" class="btn btn-danger" onclick="visualizado(${filme.id})" id="assistido">Visto</button>
+          <button type="button" class="btn btn-outline-warning"" onclick="visualizado(${filme.id})" id="assistido">Visto</button>
           </div>
       </div>
     </div>
